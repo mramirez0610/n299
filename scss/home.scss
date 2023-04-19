@@ -1,0 +1,36 @@
+#home{
+    main{
+        .content{
+            .homeBanner{
+                background-image: url("../img/home/homeBanner.JPG");
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                height: 700px;
+
+                .callout{
+                    width: 400px;
+                    height: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: rgba($color: #000, $alpha: 0.8);
+
+                    a{
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        height: 50px;
+                        width: 120px;
+                        text-align: center;
+                        background-color: #797979;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

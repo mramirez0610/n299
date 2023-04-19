@@ -1,0 +1,45 @@
+section {
+  height: 100vh;
+  scroll-snap-align: start;  
+
+  main{
+    width: 75%;
+    height: 100%; 
+    background-color: #f6f6f6;
+    margin: 0 auto;
+
+    .content{
+      padding-top: 100px;
+
+      .banner{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        
+      }
+    }
+  }
+}
+
+#home{
+  background-color:#BBBDF6;
+  color:white;
+}
+
+#products {
+  background-color: #9893DA;
+  color:white;
+}
+
+#about {
+  background-color:#797A9E;
+}
+
+#locations{
+  background-color: #72727E;
+}
+
+#contact {
+  background:#625F63;
+}

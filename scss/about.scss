@@ -1,0 +1,27 @@
+#about{
+    main{
+        .content{
+            .aboutBanner{
+                background-image: url(../img/about/aboutBanner.JPG);
+                height: 350px;
+            }
+
+            .about{
+                width: 75%;
+                margin: 30px auto;
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-decoration: none;
+                    width: 150px;
+                    height: 60px;
+                    margin: 0 auto;
+                    background-color: #000;
+                    color: white;
+                }
+            }
+        }
+    }
+}

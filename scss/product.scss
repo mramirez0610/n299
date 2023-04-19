@@ -1,0 +1,81 @@
+#products{
+    main{
+        .content{
+            h1{
+                color: black;
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            .products{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                
+                .item{
+                    height: 350px;
+                    width: 200px;
+                    background-color: #888689;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: space-between;
+                    border: 5px solid #000;
+                    
+                    .preview{
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 250px;
+                        width: 175px;
+                        margin-top: 10px;
+                    }
+    
+                    .info{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                }
+
+                .first{
+                    background-image: url(../img/products/product1.JPG);
+                }
+
+                .second{
+                    background-image: url(../img/products/product2.JPG);
+                }
+
+                .third{
+                    background-image: url(../img/products/product3.JPG);
+                }
+
+                .fourth{
+                    background-image: url(../img/products/product4.JPG);
+                }
+            }
+
+            .buttons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 40px;
+                gap: 40px;
+                a{
+                    width: 200px;
+                    height: 80px;
+    
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                            
+                    background-color: #000;
+                }
+            }
+        }
+    }
+}

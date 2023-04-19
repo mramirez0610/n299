@@ -1,0 +1,41 @@
+#locations{
+    main{
+        .content{
+            .locations{
+                width: 75%;
+                margin: 30px auto;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+
+                .location{
+                    width: 100%;
+                    height: 200px;
+                    border: 1px solid #2222;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 40px;
+                    padding: 20px;
+                    
+
+                    .locationImg{
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        width: 200px;
+                        height: 175px;
+                    }
+
+                    .first{
+                        background-image: url(../img/locations/location1.jpeg);
+                    }
+
+                    .second{
+                        background-image: url(../img/locations/location2.jpeg);
+                    }
+                }
+            }
+        }
+    }
+}
