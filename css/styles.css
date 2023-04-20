@@ -108,7 +108,7 @@ header .nav-container nav a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 700px;
+  height: 100vh;
 }
 #home main .content .homeBanner .callout {
   width: 400px;
@@ -144,14 +144,14 @@ header .nav-container nav a {
   flex-wrap: wrap;
 }
 #products main .content .products .item {
-  height: 350px;
-  width: 200px;
+  height: 40vh;
+  width: 12vw;
   background-color: #888689;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 5px solid #000;
+  border: 2px solid #000;
 }
 #products main .content .products .item .preview {
   background-position: center;
@@ -182,7 +182,7 @@ header .nav-container nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10vh;
   gap: 40px;
 }
 #products main .content .buttons a {
@@ -199,7 +199,7 @@ header .nav-container nav a {
 
 #about main .content .aboutBanner {
   background-image: url(../img/about/aboutBanner.JPG);
-  height: 350px;
+  height: 50vh;
 }
 #about main .content .about {
   width: 75%;
@@ -223,10 +223,11 @@ header .nav-container nav a {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  height: 100vh;
 }
 #locations main .content .locations .location {
   width: 100%;
-  height: 200px;
+  height: 23vh;
   border: 1px solid rgba(34, 34, 34, 0.1333333333);
   display: flex;
   align-items: center;
@@ -239,7 +240,7 @@ header .nav-container nav a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 200px;
-  height: 175px;
+  height: 18vh;
 }
 #locations main .content .locations .location .first {
   background-image: url(../img/locations/location1.jpeg);
@@ -271,7 +272,7 @@ header .nav-container nav a {
 #contact main .content .contact .form .message {
   margin-top: 20px;
   width: 95%;
-  height: 200px;
+  height: 40vh;
 }
 #contact main .content .contact .form a {
   text-decoration: none;
